@@ -6,8 +6,8 @@ Created on 2020年3月5日
 #使用requests方法
 import requests
 from bs4 import BeautifulSoup  
-from information import logindata
-from information import seachdata
+from config import logindata
+from config import seachdata
 import re 
 import get_detail
 import con_mysql
