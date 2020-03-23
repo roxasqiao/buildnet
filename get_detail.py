@@ -4,9 +4,9 @@ Created on 2020年3月5日
 @author: yanzi
 '''
 import get_buildnet
-from information.logindata import header
-from information import logindata
-from information import seachdata
+from config.logindata import header
+from config import logindata
+from config import seachdata
 from bs4 import BeautifulSoup
 import re
 def getDetail(url):
